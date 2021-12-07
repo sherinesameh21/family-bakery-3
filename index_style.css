@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.bg{
+    height: 100vh;
+    background-image: url(image/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+ 
+}
+
+
+
+.logo img {
+    width: 15%;
+    text-align: left;
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    float: left;
+    position: fixed;
+    
+}
+.nav{
+    text-align: right;
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+    font-size: large;
+    
+}
+ul{
+    list-style-type: none;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover{
+    color: yellow;
+   
+}
+
+li {
+    float: left;
+    color: white;
+  }
+  
+  
+  a {
+    display: block;
+    padding: 10px;
+    background-color: transparent;
+  }
+  .clr{
+      clear: both;
+  }
+.bg .bg-contant{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    padding-top: 160px;
+    color:white;
+    font-family: "Alegreya Sans";
+
+}
+.bg .bg-contant h1{
+    font-size: 80;
+    font-weight: 100;
+    padding-top: 25px;
+    padding-bottom: 40px;
+  
+
+
+}
+.bg .bg-contant p{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-weight: 200;
+}
+ .bg .bg-contant button{
+    padding: 15px 25px;
+    background:transparent;
+    border: white;
+    color: #fff;
+    margin-right: 5px;
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    font-weight: 500;
+    border-radius:3px ;
+    
+    
+   
+}
+.bg .bg-contant .bt{
+    background-color:#896d4e;
+    border:transparent;
+}
+.bg .bg-contant .ws a{
+    border-style: solid;
+    border-color: white;
+    color: white;
+    text-decoration: none;
+}
+
+.bg .bg-contant .dot{
+    background-color: transparent;
+    width: 30px;
+    height: 50px;
+    margin: auto;
+    margin-top: 80px;
+    border: 2px;
+    border-radius:40% ;
+    border-color: floralwhite;
+    border-style: solid;
+}
+.bg .bg-contant .dot .bos{
+    background-color:white;
+    width:8px ;
+    height: 8px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10;
+}
+
+
+.image{
+    height: 100vh;
+    width: 49.5%;
+    display: inline-block;
+    
+}
+.image img{
+    height:90%;
+    width: 80%;
+    margin: 80px 70px;
+}
+.item{
+   
+   display: inline-block;
+   width: 40%;
+   height: 50%;
+   vertical-align: top;
+   margin: 120px 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.item h2{
+    
+    padding-top: 10px;
+    font-size: 30px;
+    line-height: 1.5;
+    font-style: initial;
+    font-weight: 100;
+    font-family:"Alegreya sans";
+}
+.item p{
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: initial;
+    font-weight: 100;
+    font-family:"Alegreya";
+}
+.all{
+    background-color:#f8f8f8;
+    padding: 30px;
+}
+.loction{
+    display: inline-block;
+   width: 40%;
+   height: 50%;
+   vertical-align: top;
+
+   margin-top: 200px;
+   
+  
+}
+.loction h2{
+    font-family: "Alegreya" ;
+    color: #303030;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-right: 200px;
+
+
+}
+.loction p{
+    font-size: 13px;
+    line-height: 2;
+    font-style: initial;
+    font-weight: 500;
+    text-align: left;
+    font-family: "Alegreya" ;
+
+}
+.two{
+    height: 100vh;
+    width: 49.5%;
+    display: inline-block;
+   
+}
+.two img{
+    height:70%;
+    width: 95%;
+  margin: 50px;
+}
+.three{
+    background-color:white;
+    text-align: center;
+    height: 40px;
+    padding: 70px;
+    font-family:"Alegreya";
+}
+.three h2{
+    padding-top: 25px;
+    font-size: 30px;
+    font-style: inherit;
+    font-weight: 300;
+    text-align: center;
+
+}
+.slid{
+    margin: 50px;
+}
+.cook{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    padding-bottom: 100px;
+    font-family:"Alegreya";
+}
+.cook img{
+    width: 90%;
+   
+}
+.cook h2{
+    padding-top: 25px;
+    font-size: 1.5rem;
+    font-style: inherit;
+    font-weight: 100;
+    text-align: center;
+}
+.cook p{
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: initial;
+    font-weight: 100;
+    text-align: center;
+    
+   
+
+
+}
+.map{
+background-color: #f8f8f8;
+}
+ .sh{
+     width: 45%;
+     display: inline-block;
+     vertical-align: top;
+     margin-top: 100px;
+     margin-left: 30px;
+   
+ }
+ .loc{
+     display: inline-block;
+     width: 40%;
+     margin:40px 60px;
+    
+
+ }
+ .map .sh h2{
+    font-family:"Alegreya";
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-style: inherit;
+    font-weight: 100;
+
+ }
+ .map .sh p{
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: initial;
+    font-weight: 100;
+    font-family:"Alegreya";
+
+ }
+ .footer{
+     background-color:#403d38;
+     background-image:url(image/contact-details-map.png);
+     background-repeat: no-repeat;
+     background-position-x:right ;
+     background-position-y: center;
+ }
+ .footer .pr{
+    line-height: 1.86em;
+    font-family: 'Open Sans',arial;
+     display: inline-block;
+     width: 22%;
+     margin-top: 100px;
+    margin-bottom:130px;
+    margin-left: 20px;
+    vertical-align: top;
+    color: #969696;
+    font-size: 16px;
+     
+ }
+     
+ .footer p{
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 2;
+    font-style: initial;
+    font-weight: 80;
+    font-family:"Alegreya";
+
+ }
+ .footer h2{
+     color: white;
+     font-size: 20px;
+ }
+ .footer hr{
+     color: thistle;
+ }     
+.end{
+    background-color:#353330;
+    height: 50%;
+    text-align: center;
+}
+.end img{
+    margin-top: 100px;
+}
+
+     
+
+
+
